@@ -11,17 +11,17 @@ System.out.print(&quot;Enter the second number:&quot;);
 num2 = s.nextInt();
 System.out.print(&quot;Enter the third number:&quot;);
 num3 = s.nextInt();
-if(x &gt; y &amp;&amp; x &gt; z)
+if(num1 &gt; num2 &amp;&amp; num1 &gt; num3)
 {
-System.out.println(&quot;Largest number is:&quot;+x);
+System.out.println(&quot;Largest number is:&quot;+num1);
 }
-else if(y &gt; x &amp;&amp; y&gt;z)
+else if(num2 &gt; num1 &amp;&amp; num2&gt;num3)
 {
-System.out.println(&quot;Largest number is:&quot;+y);
+System.out.println(&quot;Largest number is:&quot;+num2);
 }
 else
 {
-System.out.println(&quot;Largest number is:&quot;+z);
+System.out.println(&quot;Largest number is:&quot;+num3);
 }
 }
 }

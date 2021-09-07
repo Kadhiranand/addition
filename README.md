@@ -3,14 +3,14 @@ public class BiggestNumber
 {
 public static void main(String[] args)
 {
-int x, y, z;
+int num1, num2, num3;
 Scanner s = new Scanner(System.in);
 System.out.print(&quot;Enter the first number:&quot;);
-x = s.nextInt();
+num1 = s.nextInt();
 System.out.print(&quot;Enter the second number:&quot;);
-y = s.nextInt();
+num2 = s.nextInt();
 System.out.print(&quot;Enter the third number:&quot;);
-z = s.nextInt();
+num3 = s.nextInt();
 if(x &gt; y &amp;&amp; x &gt; z)
 {
 System.out.println(&quot;Largest number is:&quot;+x);
